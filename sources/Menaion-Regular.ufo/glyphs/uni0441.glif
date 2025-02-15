@@ -2,8 +2,8 @@
 <glyph name="uni0441" format="2">
   <advance width="309"/>
   <unicode hex="0441"/>
+  <anchor x="203" y="563" name="Diacritic"/>
   <anchor x="308" y="563" name="Double"/>
-  <anchor x="173" y="563" name="Diacritic"/>
   <outline>
     <contour>
       <point x="261" y="361" type="curve" smooth="yes"/>

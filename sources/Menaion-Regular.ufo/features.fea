@@ -1754,8 +1754,8 @@ lookup markDiacriticalMarks {
 	<anchor 314 563> mark @Diacritic;
   pos base [\uni0440 ] <anchor 431 590> mark @Double
 	<anchor 188 591> mark @Diacritic;
-  pos base [\uni0441 ] <anchor 308 563> mark @Double
-	<anchor 173 563> mark @Diacritic;
+  pos base [\uni0441 ] <anchor 203 563> mark @Diacritic
+	<anchor 308 563> mark @Double;
   pos base [\uni0442 ] <anchor 776 563> mark @Double
 	<anchor 380 563> mark @Diacritic;
   pos base [\uni0443 ] <anchor 671 563> mark @Double
@@ -1846,8 +1846,8 @@ lookup markDiacriticalMarks {
 	<anchor 704 747> mark @Diacritic;
   pos base [\uniA66D ] <anchor 1034 562> mark @Double
 	<anchor 514 560> mark @Diacritic;
-  pos base [\uniA66E ] <anchor 948 1032> mark @Double
-	<anchor 476 1038> mark @Diacritic;
+  pos base [\uniA66E ] <anchor 978 887> mark @Double
+	<anchor 536 893> mark @Diacritic;
   pos base [\uniA648 ] <anchor 834 748> mark @Double
 	<anchor 416 751> mark @Diacritic;
   pos base [\uniA649 ] <anchor 680 563> mark @Double
