@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0483" format="2">
+  <advance width="0"/>
+  <unicode hex="0483"/>
+  <anchor x="-237" y="802" name="Stacking"/>
+  <anchor x="-241" y="543" name="_Stacking"/>
+  <anchor x="-241" y="544" name="_Diacritic"/>
+  <outline>
+    <contour>
+      <point x="-92" y="672" type="line"/>
+      <point x="-92" y="748" type="line"/>
+      <point x="26" y="748" type="line"/>
+      <point x="26" y="622" type="line"/>
+      <point x="-416" y="622" type="line"/>
+      <point x="-416" y="543" type="line"/>
+      <point x="-526" y="543" type="line"/>
+      <point x="-526" y="672" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>543</integer>
+            <key>width</key>
+            <integer>129</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>622</integer>
+            <key>width</key>
+            <integer>126</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>622</integer>
+            <key>width</key>
+            <integer>50</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-526</integer>
+            <key>width</key>
+            <integer>110</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>-92</integer>
+            <key>width</key>
+            <integer>118</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

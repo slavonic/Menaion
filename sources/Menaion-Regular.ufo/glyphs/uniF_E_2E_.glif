@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniFE2E" format="2">
+  <advance width="0"/>
+  <unicode hex="FE2E"/>
+  <anchor x="-232" y="556" name="Stacking"/>
+  <anchor x="-228" y="800" name="_Stacking"/>
+  <anchor x="-482" y="555" name="_Diacritic"/>
+  <outline>
+    <contour>
+      <point x="151" y="718" type="line"/>
+      <point x="151" y="668" type="line"/>
+      <point x="-437" y="668" type="line"/>
+      <point x="-437" y="589" type="line"/>
+      <point x="-547" y="589" type="line"/>
+      <point x="-547" y="718" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>589</integer>
+            <key>width</key>
+            <integer>129</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>668</integer>
+            <key>width</key>
+            <integer>50</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-547</integer>
+            <key>width</key>
+            <integer>110</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

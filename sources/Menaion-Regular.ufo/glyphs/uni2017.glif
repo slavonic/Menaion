@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2017" format="2">
+  <advance width="500"/>
+  <unicode hex="2017"/>
+  <outline>
+    <contour>
+      <point x="506" y="-85" type="line"/>
+      <point x="-6" y="-85" type="line"/>
+      <point x="-6" y="-35" type="line"/>
+      <point x="506" y="-35" type="line"/>
+    </contour>
+    <contour>
+      <point x="506" y="-165" type="line"/>
+      <point x="-6" y="-165" type="line"/>
+      <point x="-6" y="-115" type="line"/>
+      <point x="506" y="-115" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-165</integer>
+            <key>width</key>
+            <integer>50</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>-85</integer>
+            <key>width</key>
+            <integer>50</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

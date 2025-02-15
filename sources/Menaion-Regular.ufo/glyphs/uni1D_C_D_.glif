@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1DCD" format="2">
+  <advance width="0"/>
+  <unicode hex="1DCD"/>
+  <anchor x="-2" y="872" name="Stacking"/>
+  <anchor x="1" y="531.7" name="_Stacking"/>
+  <anchor x="-126" y="536" name="_Diacritic"/>
+  <outline>
+    <contour>
+      <point x="-338" y="571" type="line"/>
+      <point x="0" y="765" type="line"/>
+      <point x="336" y="568" type="line"/>
+      <point x="325" y="545" type="line"/>
+      <point x="0" y="686" type="line"/>
+      <point x="-328" y="548" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>545</integer>
+            <key>width</key>
+            <integer>220</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

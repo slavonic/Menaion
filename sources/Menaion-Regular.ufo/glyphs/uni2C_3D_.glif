@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2C3D" format="2">
+  <advance width="382"/>
+  <unicode hex="2C3D"/>
+  <anchor x="386.5" y="614.2" name="Double"/>
+  <anchor x="205" y="617" name="Diacritic"/>
+  <outline>
+    <contour>
+      <point x="55" y="470" type="line"/>
+      <point x="171" y="470" type="line"/>
+      <point x="171" y="348" type="line"/>
+      <point x="327" y="348" type="line"/>
+      <point x="327" y="131" type="line"/>
+      <point x="171" y="131" type="line"/>
+      <point x="171" y="1" type="line"/>
+      <point x="55" y="1" type="line"/>
+      <point x="55" y="168" type="line"/>
+      <point x="229" y="168" type="line"/>
+      <point x="229" y="308" type="line"/>
+      <point x="55" y="308" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>1</integer>
+            <key>width</key>
+            <integer>167</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>131</integer>
+            <key>width</key>
+            <integer>37</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>308</integer>
+            <key>width</key>
+            <integer>162</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>308</integer>
+            <key>width</key>
+            <integer>40</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>55</integer>
+            <key>width</key>
+            <integer>116</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>229</integer>
+            <key>width</key>
+            <integer>98</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
