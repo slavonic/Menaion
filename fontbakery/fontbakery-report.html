@@ -311,13 +311,15 @@ immediately.
 <p>(but other kinds of bug reports and/or feature requests
     are also always welcome, of course!)</p>
 
-<p>FontBakery version: 0.13.2</p>
+<p>FontBakery version: 0.13.3</p>
         
             
                 <h2>OpenType Specification Checks</h2>
 <span class='section__emoji'>
     🔥⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩
 </span>
+
+    
 
     
 
@@ -512,6 +514,8 @@ uni032A (U+032A), uni20DB (U+20DB), uniFE00 (U+FE00), uniFE01 (U+FE01), uniFE02 
 
     
 
+    
+
             
         
             
@@ -563,63 +567,7 @@ uni032A (U+032A), uni20DB (U+20DB), uniFE00 (U+FE00), uniFE01 (U+FE01), uniFE02 
 
                             <span class='details_text'>
                             <p>The following glyphs had zero advance width:
-- uni03070300 (U+E02C)</p>
-<pre><code>- uni03070301 (U+E02B)
-
-- uni03080300 (U+E02E)
-
-- uni03080301 (U+E02D)
-
-- uni04850300 (U+E021)
-
-- uni04850301 (U+E020)
-
-- uni04850302 (U+E029)
-
-- uni04850311 (U+E026)
-
-- uni04850485 (U+E024)
-
-- uni04860300 (U+E003)
-
-- uni04860301 (U+E001)
-
-- uni04860302 (U+E02A)
-
-- uni04860311 (U+E005)
-
-- uni04860485 (U+E030)
-
-- uni04860486 (U+E025)
-
-- uni0488 (U+0488)
-
-- uni0489 (U+0489)
-
-- uni20DD (U+20DD)
-
-- uniA670 (U+A670)
-
-- uniA671 (U+A671)
-
-- uniA672 (U+A672)
-
-- uniA67D0300 (U+E034)
-
-- uniA67D0301 (U+E033)
-
-- uniECE0 (U+ECE0)
-
-- uniECE1 (U+ECE1)
-
-- uniECE2 (U+ECE2)
-
-- uniECE3 (U+ECE3)
-
-- uniECE4 (U+ECE4)
-
-- uniECE5 (U+ECE5)
-</code></pre>
+- uni2044 (U+2044)</p>
 
                             
                              [code: zero-width-bases]
@@ -1078,10 +1026,6 @@ uni223E</p>
 
     
 
-    
-
-    
-
             
         
             
@@ -1257,12 +1201,12 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, malayalam, syriac, coptic, math, tai-le, todhri, canadian-aboriginal, hebrew, tifinagh, old-permic</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, old-permic, tai-le, hebrew, tifinagh, malayalam, syriac, coptic, duployan, math, todhri</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+030E COMBINING DOUBLE VERTICAL LINE ABOVE: try adding ethiopic</li>
@@ -1287,7 +1231,7 @@ definitions.</p>
 <li>U+0350 COMBINING RIGHT ARROWHEAD ABOVE: not included in any glyphset definition</li>
 <li>U+0351 COMBINING LEFT HALF RING ABOVE: not included in any glyphset definition</li>
 <li>U+0357 COMBINING RIGHT HALF RING ABOVE: not included in any glyphset definition</li>
-<li>U+035E COMBINING DOUBLE MACRON: try adding one of: caucasian-albanian, todhri, coptic</li>
+<li>U+035E COMBINING DOUBLE MACRON: try adding one of: todhri, caucasian-albanian, coptic</li>
 <li>U+0360 COMBINING DOUBLE TILDE: not included in any glyphset definition</li>
 <li>U+0361 COMBINING DOUBLE INVERTED BREVE: try adding coptic</li>
 <li>U+1DC0 COMBINING DOTTED GRAVE ACCENT: not included in any glyphset definition</li>
@@ -1302,12 +1246,12 @@ definitions.</p>
 <li>U+2007 FIGURE SPACE: try adding symbols2</li>
 <li>U+2008 PUNCTUATION SPACE: try adding symbols2</li>
 <li>U+200A HAIR SPACE: try adding symbols2</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: yi, thai, syriac, limbu, buginese, modi, tagalog, masaram-gondi, khudawadi, psalter-pahlavi, arabic, dogra, hatran, saurashtra, thaana, hebrew, lao, sundanese, new-tai-lue, zanabazar-square, phags-pa, malayalam, kaithi, siddham, tai-viet, rejang, tirhuta, khmer, kharoshthi, avestan, nko, oriya, chakma, tagbanwa, gurmukhi, gujarati, tamil, mandaic, myanmar, hanifi-rohingya, newa, sharada, javanese, bhaiksuki, kannada, lepcha, meetei-mayek, takri, manichaean, kayah-li, mongolian, warang-citi, tifinagh, bengali, syloti-nagri, duployan, mahajani, sinhala, sogdian, telugu, tai-tham, batak, hanunoo, brahmi, grantha, pahawh-hmong, tai-le, tibetan, balinese, khojki, devanagari, buhid, cham, gunjala-gondi</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: yi, thai, syriac, limbu, buginese, modi, tagalog, masaram-gondi, khudawadi, psalter-pahlavi, arabic, dogra, saurashtra, thaana, hebrew, lao, sundanese, new-tai-lue, zanabazar-square, phags-pa, malayalam, kaithi, siddham, tai-viet, rejang, tirhuta, khmer, kharoshthi, avestan, nko, oriya, chakma, tagbanwa, gurmukhi, gujarati, tamil, mandaic, myanmar, hanifi-rohingya, newa, sharada, javanese, bhaiksuki, kannada, lepcha, meetei-mayek, takri, manichaean, kayah-li, mongolian, old-hungarian, warang-citi, tifinagh, bengali, syloti-nagri, duployan, mahajani, sinhala, sogdian, telugu, tai-tham, batak, hanunoo, brahmi, grantha, pahawh-hmong, tai-le, tibetan, balinese, khojki, devanagari, buhid, cham, gunjala-gondi</li>
-<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: phags-pa, syriac, arabic, thaana, hebrew, nko</li>
-<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: phags-pa, syriac, thaana, hebrew, nko</li>
-<li>U+2010 HYPHEN: try adding one of: yi, syloti-nagri, sora-sompeng, kaithi, coptic, lisu, arabic, armenian, kharoshthi, kayah-li, hebrew, sundanese, cham</li>
-<li>U+2011 NON-BREAKING HYPHEN: try adding one of: yi, syloti-nagri, arabic</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: hanunoo, sogdian, balinese, gujarati, khmer, siddham, sundanese, syloti-nagri, masaram-gondi, manichaean, khojki, brahmi, javanese, nko, saurashtra, tibetan, mongolian, avestan, gurmukhi, modi, thai, lepcha, oriya, tamil, tai-tham, mahajani, mandaic, meetei-mayek, chakma, sharada, kharoshthi, tai-le, thaana, tifinagh, bengali, kannada, limbu, warang-citi, syriac, newa, tagbanwa, hatran, telugu, new-tai-lue, kayah-li, buginese, zanabazar-square, lao, tagalog, dogra, grantha, phags-pa, khudawadi, bhaiksuki, duployan, devanagari, gunjala-gondi, cham, kaithi, takri, buhid, pahawh-hmong, yi, tai-viet, hebrew, rejang, sinhala, tirhuta, malayalam, hanifi-rohingya, myanmar, batak, arabic, psalter-pahlavi</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: hanunoo, sogdian, balinese, gujarati, khmer, siddham, sundanese, syloti-nagri, masaram-gondi, manichaean, khojki, brahmi, javanese, nko, saurashtra, tibetan, mongolian, avestan, gurmukhi, modi, thai, lepcha, oriya, tamil, tai-tham, mahajani, mandaic, meetei-mayek, chakma, sharada, kharoshthi, tai-le, thaana, tifinagh, bengali, kannada, limbu, warang-citi, syriac, newa, tagbanwa, telugu, new-tai-lue, kayah-li, buginese, zanabazar-square, lao, tagalog, dogra, grantha, phags-pa, khudawadi, bhaiksuki, duployan, devanagari, gunjala-gondi, cham, kaithi, takri, buhid, pahawh-hmong, yi, tai-viet, hebrew, rejang, sinhala, tirhuta, malayalam, hanifi-rohingya, old-hungarian, myanmar, batak, arabic, psalter-pahlavi</li>
+<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: hebrew, thaana, phags-pa, nko, syriac, arabic</li>
+<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: hebrew, thaana, phags-pa, nko, syriac</li>
+<li>U+2010 HYPHEN: try adding one of: sundanese, yi, syloti-nagri, kharoshthi, hebrew, lisu, kayah-li, armenian, coptic, sora-sompeng, arabic, kaithi, cham</li>
+<li>U+2011 NON-BREAKING HYPHEN: try adding one of: arabic, yi, syloti-nagri</li>
 <li>U+2012 FIGURE DASH: not included in any glyphset definition</li>
 <li>U+2015 HORIZONTAL BAR: try adding adlam</li>
 <li>U+2016 DOUBLE VERTICAL LINE: try adding math</li>
@@ -1319,7 +1263,7 @@ definitions.</p>
 <li>U+2024 ONE DOT LEADER: try adding armenian</li>
 <li>U+2025 TWO DOT LEADER: try adding phags-pa</li>
 <li>U+2027 HYPHENATION POINT: not included in any glyphset definition</li>
-<li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, phags-pa, yi</li>
+<li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi, phags-pa</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+2031 PER TEN THOUSAND SIGN: not included in any glyphset definition</li>
 <li>U+2034 TRIPLE PRIME: try adding math</li>
@@ -1345,11 +1289,11 @@ definitions.</p>
 <li>U+2059 FIVE DOT PUNCTUATION: try adding coptic</li>
 <li>U+205B FOUR DOT MARK: not included in any glyphset definition</li>
 <li>U+205C DOTTED CROSS: not included in any glyphset definition</li>
-<li>U+205D TRICOLON: try adding one of: old-hungarian, meroitic, meroitic-hieroglyphs, carian</li>
+<li>U+205D TRICOLON: try adding one of: old-hungarian, carian, meroitic, meroitic-hieroglyphs</li>
 <li>U+205E VERTICAL FOUR DOTS: try adding old-hungarian</li>
-<li>U+20DB COMBINING THREE DOTS ABOVE: try adding one of: math, old-permic</li>
+<li>U+20DB COMBINING THREE DOTS ABOVE: try adding one of: old-permic, math</li>
 <li>U+20DD COMBINING ENCLOSING CIRCLE: try adding symbols</li>
-<li>U+2219 BULLET OPERATOR: try adding one of: symbols, tai-tham, math, yi</li>
+<li>U+2219 BULLET OPERATOR: try adding one of: symbols, yi, tai-tham, math</li>
 <li>U+2227 LOGICAL AND: try adding math</li>
 <li>U+2228 LOGICAL OR: try adding math</li>
 <li>U+223B HOMOTHETIC: try adding math</li>
@@ -1367,7 +1311,7 @@ definitions.</p>
 <li>U+25C4 BLACK LEFT-POINTING POINTER: try adding symbols</li>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: limbu, lao, sundanese, marchen, malayalam, adlam, wancho, javanese, bhaiksuki, kannada, mongolian, telugu, brahmi, grantha, tibetan, manichaean, balinese, yi, thai, masaram-gondi, khudawadi, armenian, thaana, new-tai-lue, symbols, phags-pa, khmer, miao, chakma, gurmukhi, gujarati, tamil, sharada, warang-citi, kayah-li, tifinagh, old-permic, sogdian, tai-le, mende-kikakui, khojki, gunjala-gondi, syriac, psalter-pahlavi, bassa-vah, dogra, saurashtra, hebrew, zanabazar-square, siddham, rejang, kharoshthi, nko, tagbanwa, myanmar, hanifi-rohingya, lepcha, mahajani, sinhala, osage, hanunoo, pahawh-hmong, tai-tham, newa, buginese, elbasan, modi, tagalog, kaithi, tai-viet, math, tirhuta, soyombo, oriya, mandaic, coptic, meetei-mayek, canadian-aboriginal, takri, bengali, syloti-nagri, duployan, batak, ahom, caucasian-albanian, music, devanagari, buhid, cham</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: hanunoo, javanese, symbols, tai-tham, tifinagh, dogra, wancho, tirhuta, myanmar, gujarati, ahom, nko, gurmukhi, tamil, music, oriya, chakma, tai-le, thaana, bengali, telugu, buginese, zanabazar-square, lao, bhaiksuki, duployan, elbasan, tai-viet, rejang, bassa-vah, sogdian, canadian-aboriginal, khmer, sundanese, manichaean, khojki, marchen, armenian, tibetan, modi, sharada, kannada, limbu, syriac, tagbanwa, adlam, grantha, phags-pa, math, devanagari, buhid, miao, caucasian-albanian, hanifi-rohingya, coptic, batak, balinese, old-permic, siddham, syloti-nagri, masaram-gondi, brahmi, saurashtra, mongolian, thai, lepcha, mahajani, mandaic, meetei-mayek, kharoshthi, mende-kikakui, warang-citi, newa, new-tai-lue, kayah-li, osage, tagalog, khudawadi, kaithi, gunjala-gondi, cham, takri, pahawh-hmong, yi, hebrew, sinhala, malayalam, psalter-pahlavi, soyombo</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+2626 ORTHODOX CROSS: try adding symbols</li>
 <li>U+271A HEAVY GREEK CROSS: try adding symbols</li>
@@ -1443,7 +1387,7 @@ definitions.</p>
 <li>U+ECE6 : not included in any glyphset definition</li>
 <li>U+ECE7 : not included in any glyphset definition</li>
 <li>U+EDE0 : not included in any glyphset definition</li>
-<li>U+FE00 VARIATION SELECTOR-1: try adding one of: yi, phags-pa, manichaean</li>
+<li>U+FE00 VARIATION SELECTOR-1: try adding one of: manichaean, yi, phags-pa</li>
 <li>U+FE01 VARIATION SELECTOR-2: not included in any glyphset definition</li>
 <li>U+FE02 VARIATION SELECTOR-3: not included in any glyphset definition</li>
 <li>U+FE03 VARIATION SELECTOR-4: not included in any glyphset definition</li>
